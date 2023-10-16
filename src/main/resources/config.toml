@@ -1,0 +1,7 @@
+[union.auth-backend]
+# Both empty: Disabled
+# Both not empty: Will work only in whitelist mode
+blocked = []
+allowed = []
+union-ygg-api = "https://skin.mualliance.ltd/api/union/yggdrasil"
+union-query-api = "https://skin.mualliance.ltd/api/union/backend/{code}/security/level"
